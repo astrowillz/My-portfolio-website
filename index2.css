@@ -10,19 +10,20 @@
     text-decoration: none;
     font-family: "Roboto Flex", serif;
     position: sticky;
+    top: 0;
     height: 75px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: rgba(27, 27, 27, 1);
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: center;
-    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    
     
 }
 .social-icon{
-    color:rgb(178, 174, 174);
+    color:rgb(31, 30, 30);
     margin: 10px;
 }
 .social-icon i{
@@ -39,7 +40,7 @@ li{
     
 }
 li a{
-    color: rgb(178, 174, 174);
+    color: rgb(56, 55, 55);
     font-size: 1.1rem;
     font-weight:400;
     margin-right: 100px;
@@ -50,12 +51,12 @@ li a:hover{
     color:  #e2f0f0;
 }
 .header-section{
-    background-color: rgb(11, 11, 11);
+    /* background-color: rgb(11, 11, 11); */
     height: 700px;
 }
 
 .about-me{
-    color: #e2f0f0;
+    color: #2b2c2c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,18 +92,29 @@ margin: 20px;
     background-color: aqua;
     border: none;
     border-radius: 5px;
-    width: 200px;
+    width: 150px;
     height: 60px;
     font-size: 15px;
     box-shadow:0px 0px 7px 0px rgb(108, 235, 235);
     margin: 10px;
     margin: 20px;
-
  }
  
+ .header-button1{
+  background-color: rgb(202, 221, 221);
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 60px;
+  font-size: 15px;
+  box-shadow:0px 0px 7px 0px rgb(202, 221, 221);
+  margin: 10px;
+  margin: 20px;
+}
+
  .body-1-section{
     height: 700px;
-    background-color: rgb(233, 230, 230);
+    /* background-color: rgb(233, 230, 230); */
 
     padding: 25px;
  }
@@ -119,11 +131,19 @@ margin: 20px;
 }
 
 .Technologies{
-background-color: rgb(233, 230, 230);
+/* background-color: rgb(233, 230, 230); */
 text-align: center;
 margin: 0;
 padding: 0;
 
+}
+.Technologies h1{
+  margin-top: 90px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background: linear-gradient(to right, #0b0b0b, #dbe6e9);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .git img{
@@ -144,49 +164,81 @@ width: 150px;
 
 }
 
-.clerk:hover{
-  background-color: rgb(225, 222, 222);
-  border-radius: 10%;
-  margin: 10px;
-  padding: 10px;
-  }
+#edu-compsci{
+  font-size: 20px;
 
-
-.figma:hover{
-background-color: rgb(225, 222, 222);
-border-radius: 10%;
-margin: 10px;
-padding: 10px;
+  margin-top: 15px;
 }
 
-.stripe:hover{
-  background-color: rgb(225, 222, 222);
-  border-radius: 10%;
-  margin: 10px;
-  padding: 10px;
+#years{
+  font-size: 20px;
+  margin-top: 15px;
+
+}
+
+  .real-about-me{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
-  .git:hover{
-    background-color: rgb(225, 222, 222);
-    border-radius: 10%;
-
-    padding: 10px;
-    }
-
-.drop-box:hover{
-  background-color: rgb(225, 222, 222);
-  border-radius: 10%;
-  margin: 10px;
-  padding: 10px;
+  .real-about-me h1{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 
+  .real-about-me span{
+    font-size: 40px;
+    font-weight: 500;
+  }
 
+  .real-about-me img{
+    width: 500px;
+    height: 400px;
+  }
 
+  .img-text{
+    display: flex;
+  }
 
+  .img-text .Education{
+    border: 1px ;
+    border-radius: 20px;
+    height:200px ;
+    width: 450px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(139, 174, 189, 0.2);
+    
+  }
 
-
-
-
+  .explanation{
+    text-align: justify;
+  text-justify: inter-word;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+  .text1{
+    margin: 30px;
+  }
+  .text2{
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+.Education p{
+  /* margin-top: 15px; */
+  justify-content: left;
+}
+.Education i{
+  margin-top: 15px;
+}
+  .text2{
+    display: flex;
+  }
 
  
 .container {
