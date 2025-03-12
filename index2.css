@@ -69,7 +69,7 @@ li a:hover{
 .about-me img{  
     margin-top: 15px;
      width: 400px;
-     height: 500px;
+     height: 100%;
      margin: 25px;
      border-radius: 100%;
      /* box-shadow:1px 3px 4px rgb(116, 117, 117); */   
@@ -114,7 +114,30 @@ margin: 20px;
     justify-content: center;
 }
 
+.Technologies{
+background-color: rgb(233, 230, 230);
+text-align: center;
+margin: 0;
+padding: 0;
 
+
+
+
+}
+
+.tech-grid{
+display: flex;
+margin-left: 50px;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+}
+
+.Technologies img{
+width: 150px;
+
+
+}
 
 
 
