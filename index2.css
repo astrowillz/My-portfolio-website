@@ -59,11 +59,15 @@ li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:10px;
+    justify-content: space-around;
+    /* margin:10px; */
 }
+
+
 
 .about-me-text span{
     color:aqua;
+    font-size: 25px;
 }
 
 .about-me img{  
@@ -98,7 +102,7 @@ margin: 20px;
  
  .body-1-section{
     height: 700px;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgb(233, 230, 230);
 
     padding: 25px;
  }
@@ -120,8 +124,10 @@ text-align: center;
 margin: 0;
 padding: 0;
 
+}
 
-
+.git img{
+  height: 115px;
 
 }
 
@@ -136,16 +142,43 @@ text-align: center;
 .Technologies img{
 width: 150px;
 
-
 }
 
+.clerk:hover{
+  background-color: rgb(225, 222, 222);
+  border-radius: 10%;
+  margin: 10px;
+  padding: 10px;
+  }
 
 
+.figma:hover{
+background-color: rgb(225, 222, 222);
+border-radius: 10%;
+margin: 10px;
+padding: 10px;
+}
 
+.stripe:hover{
+  background-color: rgb(225, 222, 222);
+  border-radius: 10%;
+  margin: 10px;
+  padding: 10px;
+  }
 
+  .git:hover{
+    background-color: rgb(225, 222, 222);
+    border-radius: 10%;
 
+    padding: 10px;
+    }
 
-
+.drop-box:hover{
+  background-color: rgb(225, 222, 222);
+  border-radius: 10%;
+  margin: 10px;
+  padding: 10px;
+  }
 
 
 
