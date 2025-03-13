@@ -136,39 +136,80 @@ margin: 20px;
     justify-content: center;
 }
 
-.Technologies{
+.-h1{
 /* background-color: rgb(233, 230, 230); */
 text-align: center;
 margin: 0;
 padding: 0;
 
 }
-.Technologies h1{
+.Technologies-h1{
   margin-top: 90px;
     margin-bottom: 20px;
     font-weight: 500;
+text-align: center;
     background: linear-gradient(to right, #0b0b0b, #dbe6e9);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.git img{
-  height: 115px;
 
-}
 
-.tech-grid{
-display: flex;
-margin-left: 50px;
-align-items: center;
-justify-content: space-around;
-text-align: center;
-}
+
 
 .Technologies img{
 width: 150px;
+margin-left: 150px;
 
 }
+
+.stock-ticker{
+  font-size: 15px;
+  padding-block: 8px;
+
+  overflow: hidden;
+  user-select: none;
+
+
+  --gap: 20px;
+  display: flex;
+  gap: var(--gap);
+
+}
+
+
+.stock-ticker img{
+  width: 150px;
+  margin-left: 90px;
+  }
+
+
+
+.stock-ticker ul{
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+
+  animation: scroll 20s linear infinite;
+
+}
+
+.stock-ticker:hover ul {
+animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+
+
 
 #edu-p{
   font-size: 20px;
