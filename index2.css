@@ -5,6 +5,9 @@
     padding: 0;
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .navbar{ 
     text-decoration: none;
@@ -283,7 +286,14 @@ width: 150px;
 
 
 
-
+#project-header{
+  text-align: center;
+  margin-top: 40px;
+  background: linear-gradient(to right, #1b1e1f, #588997);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
 
 
 
@@ -291,6 +301,7 @@ width: 150px;
 display: grid;
   justify-content: center;
   grid-template-columns: auto auto auto ;
+  
 
 }
 
@@ -368,16 +379,18 @@ display: grid;
   background: linear-gradient(to right, #1b1e1f, #588997);
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 700;
 }
 .collaboration-p{
   text-align: center;
   background: linear-gradient(to right, #1b1e1f, #588997);
   -webkit-text-fill-color: transparent;
   background-clip: text;
+
 }
 
 
-/* From Uiverse.io by vinodjangid07 */ 
+
 .card2 {
   width: fit-content;
   height: fit-content;
@@ -422,6 +435,11 @@ display: grid;
   transition-duration: .3s;
 }
 
+.containerFive:hover {
+  background-color: #7568eb;
+  transition-duration: .3s;
+}
+.containerFive{}
 .socialContainer:active {
   transform: scale(0.9);
   transition-duration: .3s;
