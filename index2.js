@@ -5,3 +5,18 @@ var typed = new Typed(".auto-type",{
     loop:true
 })
 
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display="flex"
+
+    // const menubar = document.querySelector('.menubar')
+    // menubar.style.display="none"
+}
+
+function closeSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display="none"
+
+    // const menubar = document.querySelector('.menubar')
+    // menubar.style.display="block"
+}
